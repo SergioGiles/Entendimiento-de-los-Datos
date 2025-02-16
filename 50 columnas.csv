@@ -1,0 +1,51 @@
+Nombre (Inglés),Nombre (Español),Tipo de Variable,Justificación
+id,id,Numérica (entera),Identificador único para análisis y cruce de datos.
+listing_url,url_listado,Texto (URL),Enlace directo para verificar el listado en Airbnb.
+name,nombre,Texto,Nombre del listado para identificar ofertas específicas.
+description,descripción,Texto,Descripción detallada para análisis de texto y contenido.
+neighborhood_overview,descripción_vecindario,Texto,Información sobre el vecindario para análisis de ubicación.
+host_id,id_anfitrión,Numérica (entera),Identificador único del anfitrión para análisis de perfiles.
+host_name,nombre_anfitrión,Texto,Nombre del anfitrión para identificar a los anfitriones más activos.
+host_since,anfitrión_desde,Fecha,Fecha de registro para analizar la experiencia del anfitrión.
+host_response_rate,tasa_respuesta_anfitrión,Numérica (porcentaje),Indicador de la responsabilidad del anfitrión.
+host_acceptance_rate,tasa_aceptación_anfitrión,Numérica (porcentaje),Tasa de aceptación de reservas para medir la disponibilidad.
+host_is_superhost,es_superanfitrión,Booleana,"Indica si el anfitrión tiene estatus de Superanfitrión, lo cual es un indicador de calidad."
+host_listings_count,cantidad_listados_anfitrión,Numérica (entera),Número de listados para identificar anfitriones con múltiples propiedades.
+host_verifications,verificaciones_anfitrión,Texto (lista),Métodos de verificación para evaluar la confiabilidad del anfitrión.
+host_identity_verified,identidad_verificada,Booleana,"Indica si la identidad del anfitrión está verificada, lo cual aumenta la confianza."
+neighbourhood_cleansed,vecindario_limpiado,Texto,Vecindario geocodificado para análisis de ubicación precisa.
+latitude,latitud,Numérica (decimal),Coordenada para análisis geográfico y mapeo.
+longitude,longitud,Numérica (decimal),Coordenada para análisis geográfico y mapeo.
+property_type,tipo_propiedad,Categórica,Tipo de propiedad para segmentar y categorizar los listados.
+room_type,tipo_habitación,Categórica,Tipo de habitación para análisis de preferencias de los huéspedes.
+accommodates,capacidad,Numérica (entera),"Número de personas que puede alojar, importante para análisis de capacidad."
+bathrooms,baños,Numérica (decimal),Número de baños para evaluar comodidades.
+bedrooms,dormitorios,Numérica (entera),Número de dormitorios para análisis de capacidad y comodidad.
+beds,camas,Numérica (entera),Número de camas para evaluar la capacidad de alojamiento.
+amenities,comodidades,Texto (lista),Lista de comodidades para análisis de servicios ofrecidos.
+price,precio,Numérica (decimal),Precio por noche para análisis de precios y rentabilidad.
+minimum_nights,noches_mínimas,Numérica (entera),Número mínimo de noches para análisis de políticas de reserva.
+maximum_nights,noches_máximas,Numérica (entera),Número máximo de noches para análisis de políticas de reserva.
+has_availability,tiene_disponibilidad,Booleana,Indica si el listado está disponible para reservas.
+availability_30,disponibilidad_30,Numérica (entera),Disponibilidad en los próximos 30 días para análisis de ocupación.
+availability_60,disponibilidad_60,Numérica (entera),Disponibilidad en los próximos 60 días para análisis de ocupación.
+availability_90,disponibilidad_90,Numérica (entera),Disponibilidad en los próximos 90 días para análisis de ocupación.
+availability_365,disponibilidad_365,Numérica (entera),Disponibilidad en los próximos 365 días para análisis de ocupación.
+number_of_reviews,número_reseñas,Numérica (entera),Número total de reseñas para medir la popularidad del listado.
+number_of_reviews_ltm,número_reseñas_últimos_12_meses,Numérica (entera),Número de reseñas recientes para análisis de tendencias.
+first_review,primera_reseña,Fecha,Fecha de la primera reseña para análisis de antigüedad del listado.
+last_review,última_reseña,Fecha,Fecha de la última reseña para análisis de actividad reciente.
+review_scores_rating,puntuación_reseñas,Numérica (decimal),Puntuación promedio para evaluar la calidad del listado.
+review_scores_accuracy,precisión_reseñas,Numérica (decimal),Puntuación de precisión para análisis de calidad.
+review_scores_cleanliness,limpieza_reseñas,Numérica (decimal),Puntuación de limpieza para análisis de calidad.
+review_scores_checkin,checkin_reseñas,Numérica (decimal),Puntuación del proceso de check-in para análisis de experiencia del huésped.
+review_scores_communication,comunicación_reseñas,Numérica (decimal),Puntuación de comunicación para análisis de interacción con el anfitrión.
+review_scores_location,ubicación_reseñas,Numérica (decimal),Puntuación de ubicación para análisis de atractivo del vecindario.
+review_scores_value,valor_reseñas,Numérica (decimal),Puntuación de valor para análisis de relación calidad-precio.
+instant_bookable,reserva_inmediata,Booleana,"Indica si el listado permite reservas instantáneas, lo cual es un factor clave para huéspedes."
+calculated_host_listings_count,cantidad_listados_anfitrión_calculado,Numérica (entera),Número de listados del anfitrión en la región para análisis de actividad.
+reviews_per_month,reseñas_por_mes,Numérica (decimal),Promedio de reseñas por mes para análisis de popularidad y actividad.
+host_total_listings_count,cantidad_total_listados_anfitrión,Numérica (entera),"Número total de listados del anfitrión en todas las regiones, útil para entender su alcance."
+host_thumbnail_url,url_miniatura_anfitrión,Texto (URL),"URL de la imagen en miniatura del anfitrión, relevante para análisis de presentación visual."
+host_picture_url,url_imagen_anfitrión,Texto (URL),"URL de la imagen del anfitrión, importante para evaluar la confianza y profesionalismo."
+host_neighbourhood,vecindario_anfitrión,Texto,"Vecindario donde reside el anfitrión, útil para análisis de proximidad y contexto geográfico."
